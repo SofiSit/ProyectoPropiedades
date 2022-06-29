@@ -1,5 +1,6 @@
 # ProyectoPropiedades
 App busqueda de Propiedades
+
 En Back: npm run dev
 
 En Front: npm start
