@@ -1,0 +1,41 @@
+### CREATE CATEGORY
+
+POST http://localhost:3001/api/categories
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQyMTZiZWEwLTk5NzEtNDBiYi04NDViLTYxYmY4YjRlMTY3YiIsInVzZXJOYW1lIjoic29maUBnbWFpbC5jb20iLCJhZG1pbiI6ZmFsc2UsImlhdCI6MTY0OTg1NTY4MiwiZXhwIjoxNjQ5OTQyMDgyfQ.m8qIzG3429olRHyYJvXpc7Kra_nG1ALxbeb2c-sn9YY
+
+{
+    "name":"Casas en el Bosque",
+    "image":"https://www.arquitecturaydiseno.es/medio/2021/09/15/casa-moderna-en-los-bosques-de-canada-fachada-iluminada-8053e009-1500x1080_23e82903_1200x630.jpeg"
+        }
+
+
+### List Categories
+
+GET http://localhost:3001/api/categories
+
+
+
+### DESTROY Category
+
+DELETE http://localhost:3001/api/categories/2c6e2a26-cb13-4eb9-ace8-ceb61cbf1dd2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA3NDY0MTUyLWM5ODUtNDIwZC04NzcwLTJmNjFjMWY2ZmQ4NyIsInVzZXJOYW1lIjoiYWRtaW5AZ21haWwuY29tIiwiYWRtaW4iOnRydWUsImlhdCI6MTY0OTg1NTgyNiwiZXhwIjoxNjQ5OTQyMjI2fQ.fwJg8msyDcKmEBYbDEYANLarZii03R9xjtm1WX5S9kI
+
+
+
+### Update Category
+
+PUT http://localhost:3001/api/categories/da684b36-beb0-4c69-b080-403d797df926
+Content-Type: application/json
+
+{
+"image": "jijiji"
+}
+
+
+
+
+
+
+
+

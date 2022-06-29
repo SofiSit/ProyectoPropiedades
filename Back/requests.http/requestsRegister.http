@@ -1,0 +1,11 @@
+### CREATE USER
+
+POST http://localhost:3001/api/register
+Content-Type: application/json
+
+{    
+    "name":"pep",
+    "lastName":"may",
+    "userName": "pepito@gmail.com",
+    "password": "123456"  
+}

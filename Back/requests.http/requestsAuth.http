@@ -1,0 +1,48 @@
+//crear carpeta request, guardo adentro todos los archivos .http.root
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### auth
+
+GET http://localhost:3001/api/auth
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImI2N2MxNTRmLTRlZTYtNDA1OS1hNzQxLTQ3NjBlMDE3Yzg4NyIsInVzZXJOYW1lIjoic2FyaXRhQGdtYWlsLmNvbSIsInJvbGUiOiJjbGllbnQiLCJpYXQiOjE2NDg2NDk5MDYsImV4cCI6MTY0ODczNjMwNn0.Y5sSCCrv0Ax-Y9J8YzvXXc30ymewRyB9vuKky6HX3j4
+
+
+### auth
+GET http://localhost:3001/api/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImI2N2MxNTRmLTRlZTYtNDA1OS1hNzQxLTQ3NjBlMDE3Yzg4NyIsInVzZXJOYW1lIjoic2FyaXRhQGdtYWlsLmNvbSIsInJvbGUiOiJjbGllbnQiLCJpYXQiOjE2NDg2NDk5MDYsImV4cCI6MTY0ODczNjMwNn0.Y5sSCCrv0Ax-Y9J8YzvXXc30ymewRyB9vuKky6HX3j4

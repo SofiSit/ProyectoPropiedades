@@ -1,0 +1,13 @@
+
+
+
+
+### LOGIN
+
+POST http://localhost:3001/api/login
+Content-Type: application/json
+
+{    
+    "userName": "admin@gmail.com",
+    "password": "123456"  
+}

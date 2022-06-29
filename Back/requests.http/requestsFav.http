@@ -1,0 +1,25 @@
+### CREATE FAVORITE
+
+POST http://localhost:3001/api/favorites
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJiZDE5OGI2LTk0YjEtNGU5Yy1iNmNhLTIxODc3OGRkZTU4MyIsInVzZXJOYW1lIjoiZmVyQGdtYWlsLmNvbSIsInJvbGUiOiJjbGllbnQiLCJpYXQiOjE2NDg2NDgyMzYsImV4cCI6MTY0ODczNDYzNn0.NgncF6mXsZ5F5MVJcFGL_xWG3y2TQV7LPftl1yDdd3U
+
+{    
+    "name":"casa playa",
+    "url_image":"loboCampeon",
+    "propId": "5",
+    "userId": "bbd198b6-94b1-4e9c-b6ca-218778dde583"  
+}
+
+
+
+### List Favorites
+
+GET http://localhost:3001/api/favorites/bbd198b6-94b1-4e9c-b6ca-218778dde583
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjBlYzAwYmZmLWMwYjAtNGUyOC1hOTQxLWRjN2JjZTRiMjliYiIsInVzZXJOYW1lIjoicGVwaXRvQGdtYWlsLmNvbSIsImFkbWluIjpmYWxzZSwiaWF0IjoxNjQ5MjQ3ODQ0LCJleHAiOjE2NDkzMzQyNDR9.KDSGYGvmFJuqfMU563rsppM8IaRc4o7ob3czREPe9_E
+
+
+### DESTROY Favorites
+
+DELETE http://localhost:3001/api/favorites/7706f68f-68c4-4998-afc7-4bd01d3d0194
+

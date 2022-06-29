@@ -1,0 +1,16 @@
+.back-img {
+  background-image: url("https://mansionesmiami.com/wp-content/uploads/2020/06/mansion-en-venetian-islands-miami-de-noche-1.jpg");
+  padding: 6em;
+  padding-bottom: 6em;
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px;
+}
+
+.container {
+  justify-content: start;
+  color: rgb(250, 250, 247);
+}

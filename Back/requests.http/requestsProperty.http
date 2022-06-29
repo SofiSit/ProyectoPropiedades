@@ -1,0 +1,36 @@
+### createProperty
+
+
+POST http://localhost:3001/api/properties
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQyMTZiZWEwLTk5NzEtNDBiYi04NDViLTYxYmY4YjRlMTY3YiIsInVzZXJOYW1lIjoic29maUBnbWFpbC5jb20iLCJhZG1pbiI6ZmFsc2UsImlhdCI6MTY0OTM0OTM2MiwiZXhwIjoxNjQ5NDM1NzYyfQ.IyvYRumge-YQ4p8DZtCDewJM4dYKJYUcuvZQ6iWnkZ4
+
+{
+"name":"Casa Fiji",
+"description":"Lujosa casa Ecologia y sostenible cuenta con grandes espacios y situada en medio de una area reservada con fauna y fora increible",
+"image":"https://ecovip.es/wp-content/uploads/2020/06/iStock-1172181555-1-1.jpg",
+"price":70000,
+"location":"Canada",
+"onSale": true,
+"categories": ["7f65bc59-3638-4829-813f-8dffe0aeab9c"]
+}
+
+
+### List de propiedades
+
+GET  http://localhost:3001/api/properties
+
+
+### Update Property
+
+PUT http://localhost:3001/api/properties/
+Content-Type: application/json
+
+{
+"price":10
+}
+
+### DESTROY PROPERTY
+
+DELETE http://localhost:3001/api/properties/93163d04-ef45-4b05-b2fb-7a9202915a45
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA3NDY0MTUyLWM5ODUtNDIwZC04NzcwLTJmNjFjMWY2ZmQ4NyIsInVzZXJOYW1lIjoiYWRtaW5AZ21haWwuY29tIiwiYWRtaW4iOnRydWUsImlhdCI6MTY1MDU0MjYwOCwiZXhwIjoxNjUwNjI5MDA4fQ.LwTxkRYdPQzMtweYDHu1DWNODNay-MlRP5ccFtE5KMA
