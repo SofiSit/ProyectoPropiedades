@@ -1,11 +1,12 @@
-# ProyectoPropiedades
-App busqueda de Propiedades
+# ProjectProperties
+Property search app
 
-En Back: npm run dev
+On Back: npm run dev
 
-En Front: npm start
+On Front: npm start
 
-Proyecto para la busqueda de propiedades, cuenta con un login, con un panel de administrador para borrar crear y editar propiedades, un filtro para la busqueda y formulario de envio de consultas.
+Project for the search of properties, it has a login, with an administrator panel to delete, create and edit properties, a filter for the search and a form for sending queries.
+
 
 ![notebook-mockup-on-desk](https://user-images.githubusercontent.com/94472523/176440310-1cb00cd5-ab59-4a39-888b-25db7ea20fdc.png)
 
